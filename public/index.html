@@ -41,17 +41,6 @@
                             <span>Coffee on the go!</span>
                         </div>
 
-                        <ul class="splash_social">
-                            <li><a href="http://facebook.com/"><img src="images/icons_contour/social/facebook.png"
-                                                                    alt="" title=""
-                                                                    border="0"/></a></li>
-                            <li><a href="http://twitter.com/transittweak"><img
-                                    src="images/icons_contour/social/twitter.png" alt="" title=""
-                                    border="0"/></a></li>
-                            <li><a href="#"><img src="images/icons_contour/social/google.png" alt="" title=""
-                                                 border="0"/></a></li>
-                        </ul>
-
                         <div class="slide-to-navigate">
                             <a href="#" onclick="swiperParent.swipeTo(1);"><img
                                     src="colors/splash/images/slide-to-navigate.png" alt="" title="" border="0"/></a>
@@ -69,7 +58,7 @@
 
 <!--Menu page-->
 <div class="swiper-slide sliderbg">
-    <div class="swiper-container swiper-nested">
+    <div class="swiper-container swiper-nested1">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="slide-inner">
@@ -219,171 +208,50 @@
             <div class="swiper-slide">
                 <div class="slide-inner">
                     <div class="pages_container">
-                        <h2 class="page_title">Blog</h2>
 
-                        <div class="toogle_wrap_blog radius8">
-                            <div class="trigger_blog"><a href="#">blog categories</a></div>
-                            <div class="toggle_container_blog">
-                                <ul class="listing_detailed">
-                                    <li><a href="#">webdesign work</a></li>
-                                    <li><a href="#">painted illustrations</a></li>
-                                    <li><a href="#">programming and javascript</a></li>
-                                </ul>
-                            </div>
+                        <h2 class="page_title">Get in touch</h2>
+
+                        <div class="form">
+                            <form id="contact-us" action="" method="post">
+                                <label>Name:</label>
+                                <input type="text" name="contactName" id="contactName" value=""
+                                       class="form_input radius4 txt requiredField"/>
+                                <label>Email:</label>
+                                <input type="text" name="email" id="email" value=""
+                                       class="form_input radius4 txt requiredField email"/>
+                                <label>Message:</label>
+                                <textarea name="comments" id="commentsText"
+                                          class="form_textarea radius4 txtarea requiredField" rows=""
+                                          cols=""></textarea>
+                                <input type="hidden" name="submitted" id="submitted" value="true"/>
+                                <input name="submit" type="submit" class="form_submit radius4 green green_borderbottom"
+                                       value="Send"/>
+                            </form>
                         </div>
-                        <ul class="posts">
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
 
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">blog category</a>
-                                    <span class="post_comments">25 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
 
-                                <div class="post_left">
-                                    <span class="day">23</span>
-                                    <span class="month">june</span>
-                                </div>
-
-                            </li>
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
-
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Cras vestibulum justo eget lorem
-                                        semper ac facilisis nulla porta...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">programming</a>
-                                    <span class="post_comments">18 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
-
-                                <div class="post_left">
-                                    <span class="day">18</span>
-                                    <span class="month">sept</span>
-                                </div>
-                            </li>
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
-
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Nam velit sapien, eleifend in
-                                        tempus volutpat, posuere ullamcorper augue...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">blog category</a>
-                                    <span class="post_comments">11 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
-
-                                <div class="post_left">
-                                    <span class="day">09</span>
-                                    <span class="month">dec</span>
-                                </div>
-
-                            </li>
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
-
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Cras vestibulum justo eget lorem
-                                        semper ac facilisis nulla porta...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">programming</a>
-                                    <span class="post_comments">06 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
-
-                                <div class="post_left">
-                                    <span class="day">12</span>
-                                    <span class="month">mart</span>
-                                </div>
-                            </li>
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
-
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Cras vestibulum justo eget lorem
-                                        semper ac facilisis nulla porta...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">programming</a>
-                                    <span class="post_comments">18 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
-
-                                <div class="post_left">
-                                    <span class="day">18</span>
-                                    <span class="month">sept</span>
-                                </div>
-                            </li>
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
-
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Nam velit sapien, eleifend in
-                                        tempus volutpat, posuere ullamcorper augue...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">blog category</a>
-                                    <span class="post_comments">11 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
-
-                                <div class="post_left">
-                                    <span class="day">09</span>
-                                    <span class="month">dec</span>
-                                </div>
-
-                            </li>
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
-
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Cras vestibulum justo eget lorem
-                                        semper ac facilisis nulla porta...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">programming</a>
-                                    <span class="post_comments">18 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
-
-                                <div class="post_left">
-                                    <span class="day">18</span>
-                                    <span class="month">sept</span>
-                                </div>
-                            </li>
-                            <li class="post">
-                                <a href="#" class="post_more"></a>
-
-                                <div class="post_right_reveal">
-                                    <h4><a href="#" onclick="swiperParent.swipeTo(4);">Nam velit sapien, eleifend in
-                                        tempus volutpat, posuere ullamcorper augue...</a></h4>
-                                </div>
-                                <div class="post_right_unreveal">
-                                    Posted in <a href="#">blog category</a>
-                                    <span class="post_comments">11 Comments</span>
-                                    <a href="#" class="post_readmore" onclick="swiperParent.swipeTo(4);">read more</a>
-                                </div>
-
-                                <div class="post_left">
-                                    <span class="day">09</span>
-                                    <span class="month">dec</span>
-                                </div>
-
-                            </li>
+                        <h2>Let's socialize</h2>
+                        <ul class="social">
+                            <li class="social_facebook"><a href="#"><img src="images/icons/social/facebook.png" alt=""
+                                                                         title="" border="0"/></a></li>
+                            <li class="social_twitter"><a href="#"><img src="images/icons/social/twitter.png" alt=""
+                                                                        title="" border="0"/></a></li>
+                            <li class="social_google"><a href="#"><img src="images/icons/social/google.png" alt=""
+                                                                       title="" border="0"/></a></li>
+                            <li class="social_pinterest"><a href="#"><img src="images/icons/social/pinterest.png" alt=""
+                                                                          title="" border="0"/></a></li>
+                            <li class="social_flickr"><a href="#"><img src="images/icons/social/flickr.png" alt=""
+                                                                       title="" border="0"/></a></li>
+                            <li class="social_digg"><a href="#"><img src="images/icons/social/digg.png" alt="" title=""
+                                                                     border="0"/></a></li>
                         </ul>
-                        <div id="loadMore" class="radius8">Load more posts</div>
-                        <div id="showLess" class="radius8">No more posts</div>
-                        <div class="scrolltop radius20"><a href="#" class="scrolltop3"><img src="images/icons/top.png"
+                        <h2>Give Us a call</h2>
+                        <a href="tel:123 456 789" class="call_button radius8">Click To Call Now!</a>
+                        <a href="http://maps.google.com/maps?q=houston+usa&amp;hl=ro&amp;sll=37.0625,-95.677068&amp;sspn=53.961216,114.169922&amp;hnear=Houston,+Harris,+Texas&amp;t=m&amp;z=5"
+                           class="map_button radius8">View our location</a>
+
+                        <div class="clearfix"></div>
+                        <div class="scrolltop radius20"><a href="#" class="scrolltop9"><img src="images/icons/top.png"
                                                                                             alt="Go on top"
                                                                                             title="Go on top"/></a>
                         </div>
